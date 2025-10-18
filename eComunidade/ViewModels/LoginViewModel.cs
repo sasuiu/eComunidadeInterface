@@ -18,16 +18,24 @@ namespace eComunidade.ViewModels
         {
             if (string.IsNullOrWhiteSpace(Email) || string.IsNullOrWhiteSpace(Senha))
             {
-               
+
                 await Shell.Current.DisplayAlert("Erro", "Preencha email e senha", "OK");
                 return;
             }
 
-            //  aqui irá a chamada para a API de login
+            // API de login
             await Shell.Current.DisplayAlert("Login", $"Logando com {Email}", "OK");
 
-          
+
             await Shell.Current.GoToAsync("TelaHome");
+        }
+
+        [RelayCommand]
+        private async Task NavigateToRegister()
+        {
+            // O comando "NavigateToRegisterCommand" no XAML irá chamar este método.
+            // O aplicativo navegará para a rota "TelaCadastro".
+            await Shell.Current.GoToAsync(nameof(TelaCadastro));
         }
     }
 }
