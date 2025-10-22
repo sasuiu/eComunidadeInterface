@@ -87,7 +87,7 @@
             </Border.Shadow>
             <Grid ColumnDefinitions="*,*,*" HorizontalOptions="FillAndExpand">
                 <VerticalStackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
-                    <Image Source="home.png" HeightRequest="25" WidthRequest="25" HorizontalOptions="Center" VerticalOptions="Center" />
+                    <Image Source="home.png" HeightRequest="23" WidthRequest="23" HorizontalOptions="Center" VerticalOptions="Center" />
                     <Label Text="Início" FontSize="10" TextColor="#226487" HorizontalOptions="Center" />
                     <VerticalStackLayout.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding NavigateToHomeCommand}" />
@@ -95,7 +95,7 @@
                 </VerticalStackLayout>
 
                 <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
-                    <Image Source="add.png" HeightRequest="25" WidthRequest="25" HorizontalOptions="Center" VerticalOptions="Center" />
+                    <Image Source="add.png" HeightRequest="23" WidthRequest="23" HorizontalOptions="Center" VerticalOptions="Center" />
                     <Label Text="Adicionar" FontSize="10" TextColor="#226487" HorizontalOptions="Center" />
                     <VerticalStackLayout.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding NavigateToAddCommand}" />
@@ -103,8 +103,8 @@
                 </VerticalStackLayout>
 
                 <VerticalStackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
-                    <Image Source="heart.png" HeightRequest="25" WidthRequest="25" HorizontalOptions="Center" VerticalOptions="Center" />
-                    <Label Text="Favoritos" FontSize="10" TextColor="#226487" HorizontalOptions="Center" />
+                    <Image Source="heart.png" HeightRequest="23" WidthRequest="23" HorizontalOptions="Center" VerticalOptions="Center" />
+                    <Label Text="Dicas" FontSize="10" TextColor="#226487" HorizontalOptions="Center" />
                     <VerticalStackLayout.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding NavigateToFavoritesCommand}" />
                     </VerticalStackLayout.GestureRecognizers>

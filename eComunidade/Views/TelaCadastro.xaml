@@ -13,7 +13,7 @@
     <Grid RowDefinitions="Auto, *" RowSpacing="0" VerticalOptions="FillAndExpand">
 
         <VerticalStackLayout Grid.Row="0" HorizontalOptions="Center" Margin="0,50,0,20" Spacing="5">
-            <Image Source="logo.png" HeightRequest="80" WidthRequest="80" Aspect="AspectFit" />
+            <Image Source="logo.png" HeightRequest="80" WidthRequest="800" Aspect="AspectFit" />
         </VerticalStackLayout>
 
         <Border Grid.Row="1"

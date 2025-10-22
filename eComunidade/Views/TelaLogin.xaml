@@ -15,7 +15,7 @@
         <Image Source="logo.png"
                VerticalOptions="Start"
                HorizontalOptions="Center"
-               Margin="0, 50, 0, 0"
+               Margin="0, 9, 0, 0"
                WidthRequest="100" />
 
         <Border BackgroundColor="White"

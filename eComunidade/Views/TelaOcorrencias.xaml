@@ -133,7 +133,7 @@
 
                 <VerticalStackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Spacing="2">
                     <Image Source="heart.png" HeightRequest="25" WidthRequest="25" HorizontalOptions="Center" VerticalOptions="Center" />
-                    <Label Text="Favoritos" FontSize="10" TextColor="#226487" HorizontalOptions="Center" />
+                    <Label Text="Dicas" FontSize="10" TextColor="#226487" HorizontalOptions="Center" />
                     <VerticalStackLayout.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding NavigateToFavoritesCommand}" />
                     </VerticalStackLayout.GestureRecognizers>
