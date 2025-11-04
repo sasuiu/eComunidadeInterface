@@ -34,11 +34,16 @@
             <VerticalStackLayout Spacing="25">
 
                 <Label Text="Categoria" FontSize="16" TextColor="#333333" />
-
-                <Frame Padding="0" BackgroundColor="White" CornerRadius="10" HasShadow="False" BorderColor="Transparent" HeightRequest="50">
+                <Frame Padding="0" 
+                       BackgroundColor="White" 
+                       CornerRadius="10" 
+                       HasShadow="False" 
+                       BorderColor="Transparent" 
+                       HeightRequest="50"
+                       WidthRequest="250" 
+                       HorizontalOptions="Start">
                     <Grid ColumnDefinitions="*, Auto" Margin="15,0">
                         <Picker Grid.Column="0" 
-                                Title="Selecione a Categoria"
                                 ItemsSource="{Binding Categorias}"
                                 SelectedItem="{Binding CategoriaSelecionada}"
                                 TitleColor="#666666" 
