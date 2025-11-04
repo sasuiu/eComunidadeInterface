@@ -50,6 +50,12 @@ namespace eComunidade.ViewModels
         }
 
         [RelayCommand]
+        private async Task NavigateToDicas()
+        {
+            await Shell.Current.GoToAsync($"{nameof(TelaDicas)}");
+        }
+
+        [RelayCommand]
         private async Task NavigateToHome()
         {
             

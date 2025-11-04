@@ -106,7 +106,7 @@
                     <Image Source="heart.png" HeightRequest="23" WidthRequest="23" HorizontalOptions="Center" VerticalOptions="Center" />
                     <Label Text="Dicas" FontSize="10" TextColor="#226487" HorizontalOptions="Center" />
                     <VerticalStackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding NavigateToFavoritesCommand}" />
+                        <TapGestureRecognizer Command="{Binding NavigateToDicasCommand}" />
                     </VerticalStackLayout.GestureRecognizers>
                 </VerticalStackLayout>
             </Grid>

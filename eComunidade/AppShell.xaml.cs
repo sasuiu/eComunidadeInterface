@@ -23,6 +23,7 @@ namespace eComunidade
 
         
             Routing.RegisterRoute(nameof(Views.TelaCadastro), typeof(Views.TelaCadastro));
+ 
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)
